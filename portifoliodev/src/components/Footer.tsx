@@ -44,10 +44,10 @@ export default function Footer() {
         </div>
         <div className="text-slate-500 text-sm md:text-right space-y-1">
           <p className="text-slate-300 font-medium">Victor Hugo Valentim</p>
-          <p>4º Período de Ciência da Computação (ProUni)</p>
-          <p>Base Técnica sólida desde 2022.</p>
+          <p>Estudande de Ciência da Computação</p>
+          <p>Técnico em Informática desde 2022.</p>
           <p className="pt-4 opacity-50">
-            &copy; {new Date().getFullYear()} — Desenvolvido com Next.js & TS.
+            &copy; {new Date().getFullYear()} — Desenvolvido por Victor Valentim.
           </p>
         </div>
 
