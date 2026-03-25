@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+}
+
+@layer base {
+  body {
+    background-color: var(--color-slate-950);
+    color: var(--color-slate-200);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .container-layout {
+    @apply max-w-screen-xl mx-auto px-4 md:px-8 lg:px-16;
+  }
+
+  .projects-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-8;
+  }
+
+  .filter-button {
+    @apply px-4 py-2 rounded-full border border-slate-800 text-sm transition-all;
+  }
+
+  .filter-button-active {
+    @apply bg-blue-600 text-white border-blue-600 font-bold;
+  }
+
+  .card-project {
+    @apply p-6 rounded-xl border border-slate-800 bg-slate-900/40 transition-all;
+  }
+}
