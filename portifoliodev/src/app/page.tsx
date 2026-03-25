@@ -1,16 +1,17 @@
 import { projects } from "../data/projects";
 import ProjectCard from "../components/ProjectCard";
+import Hero from "../components/Hero";
+import Skills from "../components/Skills";
+import Footer from "../components/Footer"; 
 
 export default function Home() {
   const hasProjects = projects && projects.length > 0;
 
   return (
     <main>
-      <header>
-        <h1>Victor Hugo Valentim</h1>
-        <p>Desenvolvedor Fullstack | 4º Período CC (ProUni)</p>
-      </header>
-
+      <Hero />
+      <hr />
+      <Skills />
       <hr />
 
       <section>
@@ -24,14 +25,11 @@ export default function Home() {
               />
             ))
           ) : (
-            <p>Nenhum projeto cadastrado no momento.</p>
+            <p>Nenhum projeto cadastrado.</p>
           )}
         </div>
       </section>
-
-      <footer>
-        <p>&copy; 2026 - Victor Hugo Valentim</p>
-      </footer>
+      <Footer />
     </main>
   );
 }
