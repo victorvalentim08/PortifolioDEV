@@ -21,9 +21,9 @@ export default function Hero() {
         </h1>
 
         <p className="text-slate-400 text-lg md:text-xl leading-relaxed max-w-2xl">
-          Desenvolvedor Fullstack focado em soluções escaláveis. 
-          Minha jornada na tecnologia começou em 2022, e desde então venho 
-          construindo sistemas modernos com foco em performance e experiência do usuário.
+          Apaixonado por entender como a tecnologia e ciência funcionam desde pequeno, transformei a curiosidade em carreira em 2020, 
+          quando ingressei no Ensino Médio integrado ao Técnico em Informática. Hoje, como bolsista ProUni em Ciência da Computação, 
+          sigo explorando o universo do desenvolvimento Fullstack, buscando desenvolver soluções que facilitem e ajudem empresas. 
         </p>
 
         <div className="flex gap-4 pt-4">
