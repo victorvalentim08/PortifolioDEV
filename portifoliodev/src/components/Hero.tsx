@@ -17,7 +17,7 @@ export default function Hero() {
         </div>
 
         <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight">
-          Victor Hugo <span className="text-blue-500">Valentim</span>
+          <span className="text-blue-500"> Victor Hugo </span><br></br> Pereira Valentim
         </h1>
 
         <p className="text-slate-400 text-lg md:text-xl leading-relaxed max-w-2xl">
@@ -46,7 +46,7 @@ export default function Hero() {
             src="/foto de perfil.jpg" 
             alt="Victor Hugo Valentim"
             fill
-            className="object-cover grayscale hover:grayscale-0 transition-all duration-500"
+            className="object-cover  hover:grayscale-0 transition-all duration-500"
           />
         </div>
         <div className="absolute -inset-4 bg-blue-500/20 blur-3xl rounded-full z-0 opacity-50"></div>
